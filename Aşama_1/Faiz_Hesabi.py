@@ -1,5 +1,3 @@
-# giriş hesap türü sorma fakat bunu sonra ekle 
-
 # Basit faiz işlemleri
 x=int(input("Anapara'yı belirtiniz:"))
 y=int(input("Faiz işleme süresini belirtiniz:"))

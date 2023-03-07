@@ -9,13 +9,13 @@ pencere_1.title("Finans Hesap aracı")# pencere başlığını değiştiriyor.
 def basitI(): 
         s1=float(Anapara.get())
         s2=float(Faiz_oranı.get())
-        s3=int(Süre.get())
+        s3=float(Süre.get())
         sonuc.configure(text=str(s1*(1+(s2*s3)))) 
 
 def bilesikI():
         s1=float(Anapara.get())
         s2=float(Faiz_oranı.get())
-        s3=int(Süre.get())
+        s3=float(Süre.get())
         sonuc.configure(text=str(s1*((1+s2)**s3)))
         
 

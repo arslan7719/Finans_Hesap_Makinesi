@@ -1,5 +1,9 @@
 #Herkese Merhaba 4. kod bloğumuzda finans hesap makinemiz üzerinde sadece tasarımsal değişiklik yapılmıştır.
 #tasarımı bilgisayar sistemine entegre haline getirerek daha yumuşak hatlara sahip olmasını sağlamış oldum.
+#kodları çalıştırmadan önce cmd'yi açın ve konsola -pip install customtkinter yazın ve enter'layın bu komut indirme işlemi başlatacaktır,
+#daha sonra aynı yere -pip install Pillow yazın ve enter'layın bu kütüphane indikten sonra kodları çalıştırabilirsiniz.
+
+#(.exe uzantılı dosya haline getirildiğinde program hata veriyor bir sonraki adımda bu sorunu ortadan kaldırmaya çalışacağım.)
 
 # pencere oluşturma ve düzenleme.
 from tkinter import *
